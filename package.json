@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts:": {
+    "prepare": "yarn install; yarn workspaces foreach run prepare",
+    "dev": "yarn env-cmd yarn workspaces foreach -pi run dev",
+    "build": "yarn env-cmd yarn workspaces foreach -pi run build",
+    "start": "yarn env-cmd yarn workspaces foreach -pi run start"
+  },
+  "dependencies": {
+    "chakra-ui-file-picker": "0.1.0",
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "prettier": "2.8.7"
+  }
+}
