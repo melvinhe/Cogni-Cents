@@ -3,7 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts:": {
+  "scripts": {
     "prepare": "yarn install; yarn workspaces foreach run prepare",
     "dev": "yarn env-cmd yarn workspaces foreach -pi run dev",
     "build": "yarn env-cmd yarn workspaces foreach -pi run build",
@@ -15,5 +15,5 @@
   },
   "devDependencies": {
     "prettier": "2.8.7"
-  },
+  }
 }
