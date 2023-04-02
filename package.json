@@ -3,11 +3,11 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {
+  "scripts:": {
     "prepare": "yarn install; yarn workspaces foreach run prepare",
     "dev": "yarn env-cmd yarn workspaces foreach -pi run dev",
     "build": "yarn env-cmd yarn workspaces foreach -pi run build",
-    "start": "yarn workspace backend start"
+    "start": "yarn env-cmd yarn workspaces foreach -pi run start"
   },
   "dependencies": {
     "chakra-ui-file-picker": "0.1.0",
