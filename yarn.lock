@@ -1253,13 +1253,6 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axios@^0.21.4:
-  version "0.21.4"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
-  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
-  dependencies:
-    follow-redirects "^1.14.0"
-
 axios@^0.26.0:
   version "0.26.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.26.1.tgz#1ede41c51fcf51bbbd6fd43669caaa4f0495aaa9"
@@ -1512,7 +1505,7 @@ focus-lock@^0.11.6:
   dependencies:
     tslib "^2.0.3"
 
-follow-redirects@^1.14.0, follow-redirects@^1.14.8, follow-redirects@^1.15.0:
+follow-redirects@^1.14.8, follow-redirects@^1.15.0:
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
   integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
@@ -1686,7 +1679,7 @@ nanoid@^3.3.4:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
-next@latest:
+next@^13.2.4:
   version "13.2.4"
   resolved "https://registry.yarnpkg.com/next/-/next-13.2.4.tgz#2363330392b0f7da02ab41301f60857ffa7f67d6"
   integrity sha512-g1I30317cThkEpvzfXujf0O4wtaQHtDCLhlivwlTJ885Ld+eOgcz7r3TGQzeU+cSRoNHtD8tsJgzxVdYojFssw==
@@ -1953,15 +1946,14 @@ scheduler@^0.23.0:
   dependencies:
     loose-envify "^1.1.0"
 
-sec-api@^3.1.0:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/sec-api/-/sec-api-3.1.5.tgz#ab9b1050f4337f09d90d462e9520c71f0a29dfc4"
-  integrity sha512-KNx4QtHHXvEkOgJNVsvBIdnIXimAMhLskTwHuvN8qERDJ9rubG7i5yb+IpwbmpCyxQLKrdVyGjvLYeysxg+QQw==
+sec-api@^1.0.0:
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/sec-api/-/sec-api-1.0.15.tgz#a5a16e02b7eaf3e1cbb4f392cb6f4c8d05974074"
+  integrity sha512-SxMoToDWXMu6/iNUbSusAP0U4JTiiUpcx17kzc1POA31ah45DSE4rxY8DEYIU+I080Vr1FDKg9h8AcJp6MK7KQ==
   dependencies:
-    axios "^0.21.4"
-    socket.io-client "^2.4.0"
+    socket.io-client "^2.2.0"
 
-socket.io-client@^2.4.0:
+socket.io-client@^2.2.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/socket.io-client/-/socket.io-client-2.5.0.tgz#34f486f3640dde9c2211fce885ac2746f9baf5cb"
   integrity sha512-lOO9clmdgssDykiOmVQQitwBAF3I6mYcQAo7hQ7AM6Ny5X7fp8hIJ3HcQs3Rjz4SoggoxA1OgrQyY8EgTbcPYw==

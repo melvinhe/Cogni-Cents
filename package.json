@@ -13,7 +13,5 @@
     "chakra-ui-file-picker": "0.1.0",
     "react-icons": "^4.8.0"
   },
-  "devDependencies": {
-    "prettier": "2.8.7"
-  }
+  "packageManager": "yarn@3.3.1"
 }
