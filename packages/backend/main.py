@@ -15,7 +15,7 @@ app = FastAPI()
 dotenv_path = Path('..\HackPrinceton\.env')
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
-secapikey = os.getenv("SEC-API-KEY")
+secapikey = os.getenv("SEC_API_KEY")
 extractorApi = ExtractorApi(secapikey)
 
 
