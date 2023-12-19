@@ -1,7 +1,6 @@
 # CogniCents 
-### Making finance digestible for retail...
 
-A multifaceted AI-driven solution created to equip everyday users with financial proficiency and market expertise.
+Equity research analyzer using AWS Sagemaker and DistillBERT LLMs to give real-time sentiment analysis on user-inputted 10-Q reports and news articles. Awarded financial hack finalist prize at HackPrinceton for integration with Fidelity and Verbwire API.
 
 ## Product Features
 
